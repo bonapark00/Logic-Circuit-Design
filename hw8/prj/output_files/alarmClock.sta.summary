@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'CLK'
+Slack : -16.436
+TNS   : -1432.030
+
+Type  : Slow 1100mV 85C Model Setup 'switch_alarm'
+Slack : -7.601
+TNS   : -8.887
+
+Type  : Slow 1100mV 85C Model Setup 'alarm_UpDown'
+Slack : -6.468
+TNS   : -385.530
+
+Type  : Slow 1100mV 85C Model Setup 'Mode'
+Slack : -3.265
+TNS   : -95.034
+
+Type  : Slow 1100mV 85C Model Hold 'alarm_UpDown'
+Slack : 0.271
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Mode'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'switch_alarm'
+Slack : 0.664
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'CLK'
+Slack : 0.844
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.838
+TNS   : -117.188
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'switch_alarm'
+Slack : -0.490
+TNS   : -2.644
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'alarm_UpDown'
+Slack : -0.394
+TNS   : -35.527
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Mode'
+Slack : -0.394
+TNS   : -16.768
+
+Type  : Slow 1100mV 0C Model Setup 'CLK'
+Slack : -16.161
+TNS   : -1414.193
+
+Type  : Slow 1100mV 0C Model Setup 'switch_alarm'
+Slack : -7.322
+TNS   : -8.579
+
+Type  : Slow 1100mV 0C Model Setup 'alarm_UpDown'
+Slack : -6.446
+TNS   : -377.134
+
+Type  : Slow 1100mV 0C Model Setup 'Mode'
+Slack : -3.198
+TNS   : -93.006
+
+Type  : Slow 1100mV 0C Model Hold 'alarm_UpDown'
+Slack : 0.275
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Mode'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'switch_alarm'
+Slack : 0.654
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'CLK'
+Slack : 0.797
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.790
+TNS   : -110.371
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'switch_alarm'
+Slack : -0.485
+TNS   : -2.631
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'alarm_UpDown'
+Slack : -0.394
+TNS   : -34.563
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Mode'
+Slack : -0.394
+TNS   : -18.382
+
+Type  : Fast 1100mV 85C Model Setup 'CLK'
+Slack : -10.697
+TNS   : -917.826
+
+Type  : Fast 1100mV 85C Model Setup 'switch_alarm'
+Slack : -5.807
+TNS   : -5.975
+
+Type  : Fast 1100mV 85C Model Setup 'alarm_UpDown'
+Slack : -3.261
+TNS   : -193.259
+
+Type  : Fast 1100mV 85C Model Setup 'Mode'
+Slack : -1.485
+TNS   : -41.432
+
+Type  : Fast 1100mV 85C Model Hold 'alarm_UpDown'
+Slack : 0.089
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Mode'
+Slack : 0.203
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'switch_alarm'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLK'
+Slack : 0.451
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -0.754
+TNS   : -90.833
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'switch_alarm'
+Slack : -0.487
+TNS   : -1.873
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Mode'
+Slack : -0.085
+TNS   : -2.692
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'alarm_UpDown'
+Slack : -0.026
+TNS   : -0.198
+
+Type  : Fast 1100mV 0C Model Setup 'CLK'
+Slack : -9.420
+TNS   : -816.380
+
+Type  : Fast 1100mV 0C Model Setup 'switch_alarm'
+Slack : -4.930
+TNS   : -5.010
+
+Type  : Fast 1100mV 0C Model Setup 'alarm_UpDown'
+Slack : -3.058
+TNS   : -182.076
+
+Type  : Fast 1100mV 0C Model Setup 'Mode'
+Slack : -1.265
+TNS   : -35.205
+
+Type  : Fast 1100mV 0C Model Hold 'alarm_UpDown'
+Slack : 0.078
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Mode'
+Slack : 0.192
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'switch_alarm'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLK'
+Slack : 0.398
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -0.672
+TNS   : -80.223
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'switch_alarm'
+Slack : -0.455
+TNS   : -1.705
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Mode'
+Slack : -0.086
+TNS   : -2.676
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'alarm_UpDown'
+Slack : 0.023
+TNS   : 0.000
+
+------------------------------------------------------------

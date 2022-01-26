@@ -1,0 +1,142 @@
+# Reading pref.tcl
+# do alarm_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/top.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:10:36 on Dec 17,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top
+# -- Compiling architecture dataflow of top
+# End time: 16:10:37 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/one_digit_sevenseg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:10:37 on Dec 17,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/one_digit_sevenseg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity one_digit_sevenseg
+# -- Compiling architecture arch_one_digit_sevenseg of one_digit_sevenseg
+# End time: 16:10:37 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:28 on Dec 17,2021
+# vcom -reportprogress 300 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_top
+# -- Compiling architecture tb of tb_top
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(133): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(142): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(151): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:13:28 on Dec 17,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 11
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# No ports found in tb_top
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 16:14:13 on Dec 17,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_top(tb)
+# Loading work.top(dataflow)
+# ** Fatal: (vsim-3817) Port "switch_alarm" of entity "top" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/dut File: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/top.vhd Line: 14
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 16:14:14 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:24:09 on Dec 17,2021
+# vcom -reportprogress 300 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_top
+# -- Compiling architecture tb of tb_top
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(133): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(142): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(151): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:24:10 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 11
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# No ports found in tb_top
+vcom -93 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:24:25 on Dec 17,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top
+# -- Compiling architecture dataflow of top
+# End time: 16:24:26 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:24:34 on Dec 17,2021
+# vcom -reportprogress 300 -work work C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_top
+# -- Compiling architecture tb of tb_top
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(97): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(106): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(124): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(133): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(142): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(151): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/Yonsei/2_2/LCD/hw8/prj/tb_top.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:24:35 on Dec 17,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 11
+vsim work.tb_top
+# vsim work.tb_top 
+# Start time: 16:24:39 on Dec 17,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_top(tb)
+# Loading work.top(dataflow)
+# Loading work.one_digit_sevenseg(arch_one_digit_sevenseg)
+add wave -position insertpoint sim:/tb_top/*
+# End time: 20:11:40 on Dec 17,2021, Elapsed time: 3:47:01
+# Errors: 0, Warnings: 0
