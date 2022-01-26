@@ -1,0 +1,111 @@
+# Reading pref.tcl
+# do FSM_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:07:35 on Nov 26,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_mealy
+# -- Compiling architecture behav of top_mealy
+# End time: 23:07:35 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:07:35 on Nov 26,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_mealy_tb
+# -- Compiling architecture tb of top_mealy_tb
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 23:07:35 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 10
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  mealy_tb
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" mealy_tb 
+# Start time: 23:07:35 on Nov 26,2021
+# ** Error: (vsim-3170) Could not find 'mealy_tb'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/cyclonev
+#             C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/simulation/modelsim/rtl_work
+#             C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./FSM_run_msim_rtl_vhdl.do PAUSED at line 12
+vcom -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:07:44 on Nov 26,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_mealy
+# -- Compiling architecture behav of top_mealy
+# End time: 23:07:44 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:07:44 on Nov 26,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity top_mealy_tb
+# -- Compiling architecture tb of top_mealy_tb
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(63): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(66): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(68): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/top_mealy_tb.vhdl(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 23:07:44 on Nov 26,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 10
+vsim rtl_work.top_mealy_tb
+# vsim rtl_work.top_mealy_tb 
+# Start time: 23:07:35 on Nov 26,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.top_mealy_tb(tb)
+# Loading work.top_mealy(behav)
+add wave -position insertpoint  \
+sim:/top_mealy_tb/tb_A_in \
+sim:/top_mealy_tb/tb_CLK \
+sim:/top_mealy_tb/tb_LOST \
+sim:/top_mealy_tb/tb_RESET
+run
+# End time: 23:08:39 on Nov 26,2021, Elapsed time: 0:01:04
+# Errors: 1, Warnings: 0

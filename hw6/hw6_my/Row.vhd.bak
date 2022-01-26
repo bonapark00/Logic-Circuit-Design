@@ -1,0 +1,42 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity Row is
+	Port( 
+			RIn_A0 : in STD_LOGIC;
+			RIn_B0 : in STD_LOGIC;	
+	
+			RIn_0 : in STD_LOGIC;
+			RIn_1 : in STD_LOGIC;
+			RIn_2 : in STD_LOGIC;
+			RIn_3 : in STD_LOGIC;
+			RIn_4 : in STD_LOGIC;
+			RIn_5 : in STD_LOGIC;
+			RIn_6 : in STD_LOGIC;
+			RIn_7 : in STD_LOGIC;
+			 
+			ROut_0 : out STD_LOGIC;
+			ROut_1 : out STD_LOGIC;
+			ROut_2 : out STD_LOGIC;
+			ROut_3 : out STD_LOGIC;
+			ROut_4 : out STD_LOGIC;
+			ROut_5 : out STD_LOGIC;
+			ROut_6 : out STD_LOGIC;
+			ROut_7 : out STD_LOGIC;
+			ROut_8 : out STD_LOGIC;
+			ROut_9 : out STD_LOGIC);
+end Row;
+
+architecture arch_Row of Row is
+
+	component PE
+	Port( pin_A : in STD_LOGIC;
+			pin_B : in STD_LOGIC;
+			pin_1 : in STD_LOGIC;
+			pin_2 : in STD_LOGIC;
+			
+			pout_S : out STD_LOGIC;
+			pout_C : out STD_LOGIC);
+	
+	
+			

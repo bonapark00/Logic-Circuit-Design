@@ -1,0 +1,6 @@
+
+State Machine - |top_mealy|present
+Name present.S2 present.S1 present.S0 
+present.S0 0 0 0 
+present.S1 0 1 1 
+present.S2 1 0 1 

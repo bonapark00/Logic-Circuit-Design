@@ -1,0 +1,11 @@
+|top_mealy
+CLK => present~1.DATAIN
+RESET => present~3.DATAIN
+A_in[0] => Selector0.IN1
+A_in[0] => nxt.S2.IN0
+A_in[0] => Selector0.IN5
+A_in[0] => present.S1.DATAIN
+A_in[1] => ~NO_FANOUT~
+LOST <= Selector0.DB_MAX_OUTPUT_PORT_TYPE
+
+

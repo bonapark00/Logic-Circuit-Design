@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw7/FSM/simulation/qsim
+Etop_mealy
+Z1 w1637824743
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 ^K2eeK[IVbX]]MLcdOEI91
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 GFL[QAd@dAZF:`jjOGn9>2
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3dzZ?YU_4FC5UU0cTXRET1
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z10 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 14
+R0
+Z11 8FSM.vho
+Z12 FFSM.vho
+l0
+L39 1
+VFe<aYY]cTD?LkHSzA16a<1
+!s100 h[F>EU<j@AUTP[JUD:gag2
+Z13 OV;C;2020.1;71
+32
+Z14 !s110 1637824744
+!i10b 1
+Z15 !s108 1637824744.000000
+Z16 !s90 -work|work|FSM.vho|
+Z17 !s107 FSM.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 9 top_mealy 0 22 Fe<aYY]cTD?LkHSzA16a<1
+!i122 14
+l85
+L56 189
+VI274N<@NR9M[CaUgUZaGP2
+!s100 1l[@F2nYR5mQj:X^LmkDI1
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Etop_mealy_vhd_vec_tst
+Z20 w1637824742
+R8
+R9
+!i122 15
+R0
+Z21 8Waveform.vwf.vht
+Z22 FWaveform.vwf.vht
+l0
+L32 1
+VS_aYn`?@0Eb4BRXT8KIHF0
+!s100 MOejh1Z43lcMkz?nl:3Ck1
+R13
+32
+R14
+!i10b 1
+R15
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R18
+R19
+Atop_mealy_arch
+R8
+R9
+Z25 DEx4 work 21 top_mealy_vhd_vec_tst 0 22 S_aYn`?@0Eb4BRXT8KIHF0
+!i122 15
+l49
+L34 71
+VIm37Bf:HUJeoQacTj:[Tf2
+!s100 =5f]0ln7?Vka=f;k<iBEQ0
+R13
+32
+R14
+!i10b 1
+R15
+R23
+R24
+!i113 1
+R18
+R19

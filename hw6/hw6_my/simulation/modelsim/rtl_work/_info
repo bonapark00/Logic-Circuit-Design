@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/simulation/modelsim
+Efull_adder
+Z1 w1636592918
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/full_adder.vhd
+Z5 FC:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/full_adder.vhd
+l0
+L4 1
+VV?X9mnNSR9U163Hf32LVK3
+!s100 0RK@Eb;@?:@CTE>TlM[;B2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1636596054
+!i10b 1
+Z8 !s108 1636596054.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/full_adder.vhd|
+Z10 !s107 C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/full_adder.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aarch_full_adder
+R2
+R3
+DEx4 work 10 full_adder 0 22 V?X9mnNSR9U163Hf32LVK3
+!i122 0
+l13
+L12 5
+VKS3jP43caXU>AaA8Pk?0^3
+!s100 ^@^4P7T;U:WQYSF3SijX33
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_full_adder
+Z13 w1636593199
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/tb_full_adder.vhd
+Z15 FC:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/tb_full_adder.vhd
+l0
+L4 1
+V;jg:1MzK4KMN:VQ3`jcR22
+!s100 Y]88OYD2S<kGifWgL:mo<1
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/tb_full_adder.vhd|
+!s107 C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/tb_full_adder.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 13 tb_full_adder 0 22 ;jg:1MzK4KMN:VQ3`jcR22
+!i122 1
+l31
+L7 80
+V;cfC0P>_lEj;fKIk]j9nK3
+!s100 Ta>;daA5l8cP`<hf_fYY:0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+Z17 !s107 C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/tb_full_adder.vhd|
+!i113 1
+R11
+R12

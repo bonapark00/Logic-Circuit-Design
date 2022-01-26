@@ -1,0 +1,70 @@
+# Reading pref.tcl
+# do hw6_my_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:00:54 on Nov 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture arch_full_adder of full_adder
+# End time: 11:00:54 on Nov 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/tb_full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:00:54 on Nov 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/tb_full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_full_adder
+# -- Compiling architecture behavior of tb_full_adder
+# End time: 11:00:54 on Nov 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  try1
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" try1 
+# Start time: 11:00:54 on Nov 11,2021
+# ** Error: (vsim-3170) Could not find 'try1'.
+#         Searched libraries:
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/altera
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/220model
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/sgate
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/altera_mf
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/altera_lnsim
+#             C:/intelFPGA_lite/20.1/modelsim_ase/altera/vhdl/cyclonev
+#             C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/simulation/modelsim/rtl_work
+#             C:/Users/jp040/Documents/yonsei/2_2/Logic_circuit_design/hw6/hw6_my/simulation/modelsim/rtl_work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./hw6_my_run_msim_rtl_vhdl.do PAUSED at line 12
+vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=\"+acc\" work.tb_full_adder
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" work.tb_full_adder 
+# Start time: 11:00:54 on Nov 11,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_full_adder(behavior)
+# Loading work.full_adder(arch_full_adder)
+add wave -position insertpoint  \
+sim:/tb_full_adder/A \
+sim:/tb_full_adder/B \
+sim:/tb_full_adder/Cin \
+sim:/tb_full_adder/S \
+sim:/tb_full_adder/Cout
+run
+# End time: 11:03:51 on Nov 11,2021, Elapsed time: 0:02:57
+# Errors: 1, Warnings: 0

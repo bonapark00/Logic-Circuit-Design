@@ -1,0 +1,2050 @@
+|four_digit_sevenseg
+in_num[0] => mult:multiply.in_num[0]
+in_num[1] => mult:multiply.in_num[1]
+in_num[2] => mult:multiply.in_num[2]
+in_num[3] => mult:multiply.in_num[3]
+in_num[4] => mult:multiply.in_num[4]
+in_num[5] => mult:multiply.in_num[5]
+in_num[6] => mult:multiply.in_num[6]
+in_num[7] => mult:multiply.in_num[7]
+in_num[8] => mult:multiply.in_num[8]
+in_num[9] => mult:multiply.in_num[9]
+in_num[10] => mult:multiply.in_num[10]
+in_num[11] => mult:multiply.in_num[11]
+in_num[12] => mult:multiply.in_num[12]
+in_num[13] => mult:multiply.in_num[13]
+in_num[14] => mult:multiply.in_num[14]
+in_num[15] => mult:multiply.in_num[15]
+out_0[0] << one_digit_sevenseg:digit_0.out_num[0]
+out_0[1] << one_digit_sevenseg:digit_0.out_num[1]
+out_0[2] << one_digit_sevenseg:digit_0.out_num[2]
+out_0[3] << one_digit_sevenseg:digit_0.out_num[3]
+out_0[4] << one_digit_sevenseg:digit_0.out_num[4]
+out_0[5] << one_digit_sevenseg:digit_0.out_num[5]
+out_0[6] << one_digit_sevenseg:digit_0.out_num[6]
+out_1[0] << one_digit_sevenseg:digit_1.out_num[0]
+out_1[1] << one_digit_sevenseg:digit_1.out_num[1]
+out_1[2] << one_digit_sevenseg:digit_1.out_num[2]
+out_1[3] << one_digit_sevenseg:digit_1.out_num[3]
+out_1[4] << one_digit_sevenseg:digit_1.out_num[4]
+out_1[5] << one_digit_sevenseg:digit_1.out_num[5]
+out_1[6] << one_digit_sevenseg:digit_1.out_num[6]
+out_2[0] << one_digit_sevenseg:digit_2.out_num[0]
+out_2[1] << one_digit_sevenseg:digit_2.out_num[1]
+out_2[2] << one_digit_sevenseg:digit_2.out_num[2]
+out_2[3] << one_digit_sevenseg:digit_2.out_num[3]
+out_2[4] << one_digit_sevenseg:digit_2.out_num[4]
+out_2[5] << one_digit_sevenseg:digit_2.out_num[5]
+out_2[6] << one_digit_sevenseg:digit_2.out_num[6]
+out_3[0] << one_digit_sevenseg:digit_3.out_num[0]
+out_3[1] << one_digit_sevenseg:digit_3.out_num[1]
+out_3[2] << one_digit_sevenseg:digit_3.out_num[2]
+out_3[3] << one_digit_sevenseg:digit_3.out_num[3]
+out_3[4] << one_digit_sevenseg:digit_3.out_num[4]
+out_3[5] << one_digit_sevenseg:digit_3.out_num[5]
+out_3[6] << one_digit_sevenseg:digit_3.out_num[6]
+
+
+|four_digit_sevenseg|mult:multiply
+in_num[0] => Row:Row_0.RIn_A[0]
+in_num[0] => Row:Row_1.RIn_A[0]
+in_num[0] => Row:Row_2.RIn_A[0]
+in_num[0] => Row:Row_3.RIn_A[0]
+in_num[0] => Row:Row_4.RIn_A[0]
+in_num[0] => Row:Row_5.RIn_A[0]
+in_num[0] => Row:Row_6.RIn_A[0]
+in_num[0] => Row:Row_7.RIn_A[0]
+in_num[1] => Row:Row_0.RIn_A[1]
+in_num[1] => Row:Row_1.RIn_A[1]
+in_num[1] => Row:Row_2.RIn_A[1]
+in_num[1] => Row:Row_3.RIn_A[1]
+in_num[1] => Row:Row_4.RIn_A[1]
+in_num[1] => Row:Row_5.RIn_A[1]
+in_num[1] => Row:Row_6.RIn_A[1]
+in_num[1] => Row:Row_7.RIn_A[1]
+in_num[2] => Row:Row_0.RIn_A[2]
+in_num[2] => Row:Row_1.RIn_A[2]
+in_num[2] => Row:Row_2.RIn_A[2]
+in_num[2] => Row:Row_3.RIn_A[2]
+in_num[2] => Row:Row_4.RIn_A[2]
+in_num[2] => Row:Row_5.RIn_A[2]
+in_num[2] => Row:Row_6.RIn_A[2]
+in_num[2] => Row:Row_7.RIn_A[2]
+in_num[3] => Row:Row_0.RIn_A[3]
+in_num[3] => Row:Row_1.RIn_A[3]
+in_num[3] => Row:Row_2.RIn_A[3]
+in_num[3] => Row:Row_3.RIn_A[3]
+in_num[3] => Row:Row_4.RIn_A[3]
+in_num[3] => Row:Row_5.RIn_A[3]
+in_num[3] => Row:Row_6.RIn_A[3]
+in_num[3] => Row:Row_7.RIn_A[3]
+in_num[4] => Row:Row_0.RIn_A[4]
+in_num[4] => Row:Row_1.RIn_A[4]
+in_num[4] => Row:Row_2.RIn_A[4]
+in_num[4] => Row:Row_3.RIn_A[4]
+in_num[4] => Row:Row_4.RIn_A[4]
+in_num[4] => Row:Row_5.RIn_A[4]
+in_num[4] => Row:Row_6.RIn_A[4]
+in_num[4] => Row:Row_7.RIn_A[4]
+in_num[5] => Row:Row_0.RIn_A[5]
+in_num[5] => Row:Row_1.RIn_A[5]
+in_num[5] => Row:Row_2.RIn_A[5]
+in_num[5] => Row:Row_3.RIn_A[5]
+in_num[5] => Row:Row_4.RIn_A[5]
+in_num[5] => Row:Row_5.RIn_A[5]
+in_num[5] => Row:Row_6.RIn_A[5]
+in_num[5] => Row:Row_7.RIn_A[5]
+in_num[6] => Row:Row_0.RIn_A[6]
+in_num[6] => Row:Row_1.RIn_A[6]
+in_num[6] => Row:Row_2.RIn_A[6]
+in_num[6] => Row:Row_3.RIn_A[6]
+in_num[6] => Row:Row_4.RIn_A[6]
+in_num[6] => Row:Row_5.RIn_A[6]
+in_num[6] => Row:Row_6.RIn_A[6]
+in_num[6] => Row:Row_7.RIn_A[6]
+in_num[7] => Row:Row_0.RIn_A[7]
+in_num[7] => Row:Row_1.RIn_A[7]
+in_num[7] => Row:Row_2.RIn_A[7]
+in_num[7] => Row:Row_3.RIn_A[7]
+in_num[7] => Row:Row_4.RIn_A[7]
+in_num[7] => Row:Row_5.RIn_A[7]
+in_num[7] => Row:Row_6.RIn_A[7]
+in_num[7] => Row:Row_7.RIn_A[7]
+in_num[8] => Row:Row_0.RIn_B
+in_num[9] => Row:Row_1.RIn_B
+in_num[10] => Row:Row_2.RIn_B
+in_num[11] => Row:Row_3.RIn_B
+in_num[12] => Row:Row_4.RIn_B
+in_num[13] => Row:Row_5.RIn_B
+in_num[14] => Row:Row_6.RIn_B
+in_num[15] => Row:Row_7.RIn_B
+out_num[0] <= Row:Row_0.R_Out[0]
+out_num[1] <= Row:Row_1.R_Out[0]
+out_num[2] <= Row:Row_2.R_Out[0]
+out_num[3] <= Row:Row_3.R_Out[0]
+out_num[4] <= Row:Row_4.R_Out[0]
+out_num[5] <= Row:Row_5.R_Out[0]
+out_num[6] <= Row:Row_6.R_Out[0]
+out_num[7] <= Row:Row_7.R_Out[0]
+out_num[8] <= Row:Row_7.R_Out[1]
+out_num[9] <= Row:Row_7.R_Out[2]
+out_num[10] <= Row:Row_7.R_Out[3]
+out_num[11] <= Row:Row_7.R_Out[4]
+out_num[12] <= Row:Row_7.R_Out[5]
+out_num[13] <= Row:Row_7.R_Out[6]
+out_num[14] <= Row:Row_7.R_Out[7]
+out_num[15] <= Row:Row_7.R_Out[8]
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_0|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_1|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_2|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_3|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_4|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_5|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_6|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7
+RIn_A[0] => PE:PE_0.pin_A
+RIn_A[1] => PE:PE_1.pin_A
+RIn_A[2] => PE:PE_2.pin_A
+RIn_A[3] => PE:PE_3.pin_A
+RIn_A[4] => PE:PE_4.pin_A
+RIn_A[5] => PE:PE_5.pin_A
+RIn_A[6] => PE:PE_6.pin_A
+RIn_A[7] => PE:PE_7.pin_A
+RIn_B => PE:PE_0.pin_B
+RIn_B => PE:PE_1.pin_B
+RIn_B => PE:PE_2.pin_B
+RIn_B => PE:PE_3.pin_B
+RIn_B => PE:PE_4.pin_B
+RIn_B => PE:PE_5.pin_B
+RIn_B => PE:PE_6.pin_B
+RIn_B => PE:PE_7.pin_B
+RIn_above[0] => PE:PE_0.pin_1
+RIn_above[1] => PE:PE_1.pin_1
+RIn_above[2] => PE:PE_2.pin_1
+RIn_above[3] => PE:PE_3.pin_1
+RIn_above[4] => PE:PE_4.pin_1
+RIn_above[5] => PE:PE_5.pin_1
+RIn_above[6] => PE:PE_6.pin_1
+RIn_above[7] => PE:PE_7.pin_1
+R_Out[0] <= PE:PE_0.pout_S
+R_Out[1] <= PE:PE_1.pout_S
+R_Out[2] <= PE:PE_2.pout_S
+R_Out[3] <= PE:PE_3.pout_S
+R_Out[4] <= PE:PE_4.pout_S
+R_Out[5] <= PE:PE_5.pout_S
+R_Out[6] <= PE:PE_6.pout_S
+R_Out[7] <= PE:PE_7.pout_S
+R_Out[8] <= PE:PE_7.pout_C
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_0
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_0|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_1
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_1|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_2
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_2|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_3
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_3|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_4
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_4|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_5
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_5|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_6
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_6|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_7
+pin_A => pin_0.IN0
+pin_B => pin_0.IN1
+pin_1 => full_adder:FA_1.B
+pin_2 => full_adder:FA_1.Cin
+pout_S <= full_adder:FA_1.S
+pout_C <= full_adder:FA_1.Cout
+
+
+|four_digit_sevenseg|mult:multiply|Row:Row_7|PE:PE_7|full_adder:FA_1
+A => S.IN0
+A => Cout.IN0
+A => Cout.IN0
+B => S.IN1
+B => Cout.IN1
+B => Cout.IN0
+Cin => S.IN1
+Cin => Cout.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|one_digit_sevenseg:digit_0
+in_num[0] => Mux0.IN19
+in_num[0] => Mux1.IN19
+in_num[0] => Mux2.IN19
+in_num[0] => Mux3.IN19
+in_num[0] => Mux4.IN19
+in_num[0] => Mux5.IN19
+in_num[0] => Mux6.IN19
+in_num[1] => Mux0.IN18
+in_num[1] => Mux1.IN18
+in_num[1] => Mux2.IN18
+in_num[1] => Mux3.IN18
+in_num[1] => Mux4.IN18
+in_num[1] => Mux5.IN18
+in_num[1] => Mux6.IN18
+in_num[2] => Mux0.IN17
+in_num[2] => Mux1.IN17
+in_num[2] => Mux2.IN17
+in_num[2] => Mux3.IN17
+in_num[2] => Mux4.IN17
+in_num[2] => Mux5.IN17
+in_num[2] => Mux6.IN17
+in_num[3] => Mux0.IN16
+in_num[3] => Mux1.IN16
+in_num[3] => Mux2.IN16
+in_num[3] => Mux3.IN16
+in_num[3] => Mux4.IN16
+in_num[3] => Mux5.IN16
+in_num[3] => Mux6.IN16
+out_num[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+out_num[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+out_num[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+out_num[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out_num[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out_num[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_num[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|one_digit_sevenseg:digit_1
+in_num[0] => Mux0.IN19
+in_num[0] => Mux1.IN19
+in_num[0] => Mux2.IN19
+in_num[0] => Mux3.IN19
+in_num[0] => Mux4.IN19
+in_num[0] => Mux5.IN19
+in_num[0] => Mux6.IN19
+in_num[1] => Mux0.IN18
+in_num[1] => Mux1.IN18
+in_num[1] => Mux2.IN18
+in_num[1] => Mux3.IN18
+in_num[1] => Mux4.IN18
+in_num[1] => Mux5.IN18
+in_num[1] => Mux6.IN18
+in_num[2] => Mux0.IN17
+in_num[2] => Mux1.IN17
+in_num[2] => Mux2.IN17
+in_num[2] => Mux3.IN17
+in_num[2] => Mux4.IN17
+in_num[2] => Mux5.IN17
+in_num[2] => Mux6.IN17
+in_num[3] => Mux0.IN16
+in_num[3] => Mux1.IN16
+in_num[3] => Mux2.IN16
+in_num[3] => Mux3.IN16
+in_num[3] => Mux4.IN16
+in_num[3] => Mux5.IN16
+in_num[3] => Mux6.IN16
+out_num[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+out_num[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+out_num[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+out_num[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out_num[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out_num[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_num[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|one_digit_sevenseg:digit_2
+in_num[0] => Mux0.IN19
+in_num[0] => Mux1.IN19
+in_num[0] => Mux2.IN19
+in_num[0] => Mux3.IN19
+in_num[0] => Mux4.IN19
+in_num[0] => Mux5.IN19
+in_num[0] => Mux6.IN19
+in_num[1] => Mux0.IN18
+in_num[1] => Mux1.IN18
+in_num[1] => Mux2.IN18
+in_num[1] => Mux3.IN18
+in_num[1] => Mux4.IN18
+in_num[1] => Mux5.IN18
+in_num[1] => Mux6.IN18
+in_num[2] => Mux0.IN17
+in_num[2] => Mux1.IN17
+in_num[2] => Mux2.IN17
+in_num[2] => Mux3.IN17
+in_num[2] => Mux4.IN17
+in_num[2] => Mux5.IN17
+in_num[2] => Mux6.IN17
+in_num[3] => Mux0.IN16
+in_num[3] => Mux1.IN16
+in_num[3] => Mux2.IN16
+in_num[3] => Mux3.IN16
+in_num[3] => Mux4.IN16
+in_num[3] => Mux5.IN16
+in_num[3] => Mux6.IN16
+out_num[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+out_num[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+out_num[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+out_num[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out_num[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out_num[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_num[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|four_digit_sevenseg|one_digit_sevenseg:digit_3
+in_num[0] => Mux0.IN19
+in_num[0] => Mux1.IN19
+in_num[0] => Mux2.IN19
+in_num[0] => Mux3.IN19
+in_num[0] => Mux4.IN19
+in_num[0] => Mux5.IN19
+in_num[0] => Mux6.IN19
+in_num[1] => Mux0.IN18
+in_num[1] => Mux1.IN18
+in_num[1] => Mux2.IN18
+in_num[1] => Mux3.IN18
+in_num[1] => Mux4.IN18
+in_num[1] => Mux5.IN18
+in_num[1] => Mux6.IN18
+in_num[2] => Mux0.IN17
+in_num[2] => Mux1.IN17
+in_num[2] => Mux2.IN17
+in_num[2] => Mux3.IN17
+in_num[2] => Mux4.IN17
+in_num[2] => Mux5.IN17
+in_num[2] => Mux6.IN17
+in_num[3] => Mux0.IN16
+in_num[3] => Mux1.IN16
+in_num[3] => Mux2.IN16
+in_num[3] => Mux3.IN16
+in_num[3] => Mux4.IN16
+in_num[3] => Mux5.IN16
+in_num[3] => Mux6.IN16
+out_num[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+out_num[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+out_num[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+out_num[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+out_num[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+out_num[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_num[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
